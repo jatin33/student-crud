@@ -1,0 +1,13 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: column;
+    padding: 5px;
+    margin: 5px;
+}
+
+.edit-button {
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

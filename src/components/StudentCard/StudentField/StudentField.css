@@ -1,0 +1,9 @@
+.field {
+    display: flex;
+    padding: 5px;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-left: solid blue 2px;
+    background-color: cornflowerblue;
+}
