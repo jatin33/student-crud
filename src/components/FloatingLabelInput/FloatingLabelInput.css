@@ -1,0 +1,26 @@
+.inputGroup {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.formControl {
+    height: 2em;
+    width: 100%;
+}
+
+.formControlPlaceholder {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    margin-bottom: 2px;
+    opacity: 0.5;
+}
+
+.formControl:focus+.formControlPlaceholder,
+.formControl:valid+.formControlPlaceholder {
+    font-size: 80%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+}
