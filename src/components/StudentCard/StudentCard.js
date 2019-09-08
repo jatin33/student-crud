@@ -1,7 +1,6 @@
 import React from 'react';
 import StudentField from './StudentField/StudentField';
 import './StudentCard.css';
-import './StudentField/StudentField.css';
 
 import { FaUserEdit } from "react-icons/fa";
 
